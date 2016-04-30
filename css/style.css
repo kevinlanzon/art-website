@@ -1,11 +1,9 @@
-@media (min-width: 1000px) {
-  .container {
-    width: 960px;
-  }
+.container {
+  width: 960px;
 }
 
 body {
-  padding-top: 120px;
+  padding-top: 130px;
 }
 
 .navbar {
@@ -17,11 +15,31 @@ body {
   padding-top: 30px;
 }
 
+.navbar-right img {
+  height: 80%;
+}
+
 .thumbnail {
   border: 0 none;
   box-shadow: none;
 }
 
+.col-xs-6 {
+  padding: 0;
+  margin-bottom: -20px;
+}
+
 footer {
   margin-bottom: 70px;
+}
+
+hr {
+  width: 960px;
+}
+
+a.navbar.navbar-right {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  height: 70px;
 }

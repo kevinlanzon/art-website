@@ -28,7 +28,16 @@ body {
 }
 
 footer {
+  width: 960px;
   margin-bottom: 70px;
+}
+
+.social-icons {
+  float: right;
+}
+
+.copy {
+  float: left;
 }
 
 hr {

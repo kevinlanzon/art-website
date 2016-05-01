@@ -77,4 +77,57 @@
   .facebook-icon {
     height: 27px;
   }
+
+    /********************************************
+CONTACT FORM
+*********************************************/
+
+  #email,
+  #name,
+  #message {
+    background-color: #F4F4F6;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid #fff;
+    border-left: none;
+    border-radius: 0px 0px 0px 0px;
+    color: #686868;
+    padding-left: 0px;
+    box-shadow: none;
+  }
+
+  .contact-form {
+    margin-top: 40px;
+  }
+
+  #error-message {
+    position: absolute;
+    display: none;
+    margin-top: 50px;
+    color: red;
+    font-weight: 300;
+  }
+
+  #submit-button {
+    background-color: #686868;
+    color: #f1f1f1;
+    border-radius: 0;
+    width: 159px;
+    height: 36px;
+    margin-left: 210px;
+    margin-top: 30px;
+  }
+
+  .btn:focus, .btn:active {
+    outline: #fff solid !important;
+  }
+
+  #thank-you-button {
+    background-color: #686868;
+    color: #f1f1f1;
+    border-radius: 0;
+    width: 159px;
+    height: 36px;
+    margin-top: 30px;
+  }
 }

@@ -1,0 +1,136 @@
+/*======== TABLETS AND SMALL DESKTOPS ============*/
+
+@media screen and (min-width: 481px) {
+
+  body {
+    margin-top: 100px;
+  }
+
+  .container {
+    width: 920px;
+  }
+
+  .nav-buttons {
+    margin-top: 5px;
+    margin-right: 50px;
+    float: right;
+  }
+
+  .nav-buttons img {
+    height: 60px;
+    margin-left: 15px;
+  }
+
+  .main-image .thumbnail {
+    width: 920px;
+  }
+
+  .thumbnail {
+    border: 0 none;
+  }
+
+  hr {
+    width: 920px;
+  }
+
+  .col-xs-6 {
+    width: 228px;
+    height: 172px;
+    padding-left: 4px;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    width: 920px;
+    margin-bottom: 70px;
+  }
+
+  .social-icons {
+    float: right;
+  }
+
+  .copy {
+    float: left;
+    color:
+  }
+
+  .facebook-icon {
+    height: 27px;
+  }
+}
+
+
+
+/*======== LARGE DESKTOPS AND LAPTOPS ============*/
+
+@media screen and (min-width: 992px) {
+
+  body {
+    margin-top: 130px;
+  }
+
+  .container {
+    width: 960px;
+  }
+
+  .navbar {
+    height: 100px;
+    background-color: #fff;
+  }
+
+  .navbar-brand {
+    padding-top: 30px;
+  }
+
+  .nav-buttons {
+    margin-top: 20px;
+    margin-right: -15px;
+    float: right;
+  }
+
+  .nav-buttons img {
+    height: 60px;
+    margin-left: 15px;
+  }
+
+  .main-image .thumbnail {
+    width: 960px;
+    height: 500px;
+    margin: 0;
+    padding-bottom: 25px;
+  }
+
+  .thumbnail {
+    border: 0 none;
+  }
+
+  .col-xs-6 {
+    padding: 0;
+    width: 240px;
+    height: 180px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  footer {
+    width: 960px;
+    margin-bottom: 70px;
+  }
+
+  .social-icons {
+    float: right;
+  }
+
+  .copy {
+    float: left;
+    color:
+  }
+
+  hr {
+    width: 960px;
+  }
+
+  .facebook-icon {
+    height: 27px;
+  }
+}

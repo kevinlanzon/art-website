@@ -1,52 +1,76 @@
-.container {
-  width: 960px;
-}
+/*======== MOBILE LAYOUT ============*/
 
-body {
-  padding-top: 130px;
-}
+@media screen and (max-width: 480px) {
 
-.navbar {
-  height: 100px;
-  background-color: #fff;
-}
+  .container {
+    width: 400px;
+    margin: 0;
+  }
 
-.navbar-brand {
-  padding-top: 30px;
-}
+  body {
+    padding-top: 190px;
+  }
 
-.navbar-right img {
-  height: 90%;
-}
+  .navbar {
+    width: 450px;
+    height: 160px;
+    margin: 0;
+    background-color: #fff;
+  }
 
-.thumbnail {
-  border: 0 none;
-}
+  .navbar-brand img {
+    padding-top: 30px;
+    padding-left: 120px;
+  }
 
-.col-xs-6 {
-  padding: 0;
-}
+  .nav-buttons {
+    margin-top: 100px;
+    width: 400px;
+    height: 100px;
+  }
 
-footer {
-  width: 960px;
-  margin-bottom: 70px;
-}
+  .nav-buttons img {
+    height: 49px;
+  }
 
-.social-icons {
-  float: right;
-}
+  .main-image .thumbnail {
+    width: 405px;
+    height: 200px;
+    margin: 0;
+    padding-bottom: 25px;
+  }
 
-.copy {
-  float: left;
-}
+  img.thumbnail {
+    width: 205px;
+  }
 
-hr {
-  width: 960px;
-}
+  .thumbnail {
+    border: 0 none;
+  }
 
-a.navbar.navbar-right {
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  height: 70px;
+  .col-xs-6 {
+    padding: 0;
+  }
+
+  footer {
+    width: 400px;
+    margin-bottom: 70px;
+  }
+
+  .social-icons {
+    float: right;
+  }
+
+  .copy {
+    float: left;
+    color:
+  }
+
+  hr {
+    width: 400px;
+  }
+
+  .facebook-icon {
+    height: 27px;
+  }
 }

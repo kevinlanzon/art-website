@@ -11,6 +11,10 @@
     padding-top: 190px;
   }
 
+  a {
+    text-decoration: none !important;
+  }
+
   .navbar {
     width: 450px;
     height: 160px;

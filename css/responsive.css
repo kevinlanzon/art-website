@@ -120,6 +120,14 @@
     margin-bottom: 0px;
   }
 
+  #error-message {
+    position: absolute;
+    display: none;
+    margin-top: 50px;
+    color: red;
+    font-weight: 300;
+  }
+
   footer {
     width: 960px;
     margin-bottom: 70px;

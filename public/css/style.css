@@ -3,8 +3,8 @@
 @media screen and (max-width: 480px) {
 
   .container {
-    width: 380px;
-    margin: 0;
+    width: 350px;
+    margin: 0px !important;
   }
 
   body {
@@ -34,24 +34,27 @@
   }
 
   .nav-buttons img {
-    height: 40px;
+    height: 35px;
     margin-right: 2px;
   }
 
   .main-image .thumbnail {
-    width: 350px;
-    height: 200px;
+    width: 320px;
+    height: 150px;
     margin: 0;
     padding-bottom: 25px;
   }
 
   img.thumbnail {
-    width: 160px;
-    height: 100px;
+    width: 140px;
+    height: 80px;
+    margin: 0px;
+    margin-right: -0px !important;
   }
 
   .thumbnail {
     border: 0 none;
+    margin-right: 0px;
   }
 
   .col-xs-6 {

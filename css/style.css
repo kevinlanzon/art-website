@@ -56,6 +56,10 @@
     padding: 0;
   }
 
+/********************************************
+FOOTER
+*********************************************/
+
   footer {
     width: 400px;
     margin-bottom: 70px;
@@ -86,7 +90,7 @@
     height: 27px;
   }
 
-    /********************************************
+/********************************************
 CONTACT FORM
 *********************************************/
 
@@ -111,18 +115,18 @@ CONTACT FORM
   #error-message {
     position: absolute;
     display: none;
-    margin-top: 50px;
+    margin-top: 5px;
     color: red;
     font-weight: 300;
   }
 
   #submit-button {
-    background-color: #686868;
-    color: #f1f1f1;
+    background-color: #BBCAB1;
+    color: #000;
     border-radius: 0;
     width: 159px;
     height: 36px;
-    margin-left: 210px;
+    float: right;
     margin-top: 30px;
   }
 
@@ -131,8 +135,8 @@ CONTACT FORM
   }
 
   #thank-you-button {
-    background-color: #686868;
-    color: #f1f1f1;
+    background-color: #BBCAB1;
+    color: #000;
     border-radius: 0;
     width: 159px;
     height: 36px;

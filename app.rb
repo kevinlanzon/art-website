@@ -23,3 +23,7 @@ end
 get '/contact' do
   erb :contact
 end
+
+post '/index.php' do
+  erb :thank_you
+end

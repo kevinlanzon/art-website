@@ -3,7 +3,7 @@
 @media screen and (max-width: 480px) {
 
   .container {
-    width: 400px;
+    width: 380px;
     margin: 0;
   }
 
@@ -16,7 +16,7 @@
   }
 
   .navbar {
-    width: 450px;
+    width: 400px;
     height: 160px;
     margin: 0;
     background-color: #fff;
@@ -29,23 +29,24 @@
 
   .nav-buttons {
     margin-top: 100px;
-    width: 400px;
-    height: 100px;
+    width: 395px;
+    height: 90px;
   }
 
   .nav-buttons img {
-    height: 49px;
+    height: 45px;
+    margin-right: 2px;
   }
 
   .main-image .thumbnail {
-    width: 405px;
+    width: 380px;
     height: 200px;
     margin: 0;
     padding-bottom: 25px;
   }
 
   img.thumbnail {
-    width: 205px;
+    width: 190px;
   }
 
   .thumbnail {
@@ -61,7 +62,7 @@ FOOTER
 *********************************************/
 
   footer {
-    width: 400px;
+    width: 380px;
     margin-bottom: 70px;
   }
 
@@ -75,7 +76,7 @@ FOOTER
   }
 
   hr {
-    width: 400px;
+    width: 380px;
   }
 
   .facebook-icon {

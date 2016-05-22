@@ -23,8 +23,9 @@
   .navbar-brand img {
     position: absolute;
     left: 50%;
-    margin-left: -80px !important;
+    margin-left: -150px;
     display: block;
+    height: 70px;
   }
 
   .nav-buttons {
